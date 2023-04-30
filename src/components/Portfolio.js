@@ -235,7 +235,7 @@ const Portfolio = () => {
               {/* Portfolio */}
             </li>{" "}
             {/* col */}
-            <li className="portfolio-item photoshop apps">
+           {/* <li className="portfolio-item photoshop apps">
               <div className="portfolio-col portfolio-hover-01">
                 <div className="portfolio-img">
                   <a href="#">
@@ -261,18 +261,18 @@ const Portfolio = () => {
                       </a>
                     </div>{" "}
                     {/* Video Btn */}
-                  </div>{" "}
+                  {/*</div>{" "}
                   {/* Hover */}
-                </div>
-                <div className="portfolio-info">
+                {/*</div> */}
+               {/* <div className="portfolio-info">
                   <h5>Portpolio Template</h5>
                   <span>Resent Work</span>
                 </div>
               </div>{" "}
               {/* Portfolio */}
-            </li>{" "}
+           {/* </li>{" "}
             {/* col */}
-            <li className="portfolio-item app website">
+           {/*  <li className="portfolio-item app website">
               <div className="portfolio-col portfolio-hover-01">
                 <div className="portfolio-img">
                   <a href="#">
@@ -298,17 +298,17 @@ const Portfolio = () => {
                       </a>
                     </div>{" "}
                     {/* Video Btn */}
-                  </div>{" "}
+                {/*  </div>{" "}
                   {/* Hover */}
-                </div>
+              {/*  </div>
                 <div className="portfolio-info">
                   <h5>Portpolio Template</h5>
                   <span>Resent Work</span>
                 </div>
               </div>{" "}
               {/* Portfolio */}
-            </li>{" "}
-            {/* col */}
+              {/* </li>{" "}
+              {/* col */}
           </ul>{" "}
           {/* row */}
         </div>{" "}
