@@ -45,7 +45,7 @@ const Services = () => {
                   
                   </p>
                   <i class="fab fa-instagram fa-lg"></i>
-                <a href="https://www.instagram.com/jedenteam/">jedenteam</a>
+                <a href="https://www.instagram.com/jedenteam/">JEDENTEAM</a>
                 <p>
                   
                   </p>

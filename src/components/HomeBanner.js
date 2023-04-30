@@ -24,9 +24,10 @@ const HomeBanner = () => {
                 <div className="v-center-box d-flex align-items-center">
                   <div className="home-text">
                     <h2 className="dark-color">Adrian Oleksiak</h2>
-                    <h1 className="dark-color">JEDEN TEAM</h1>
-                    <h1 className="dark-color"></h1>
-                     <p> <h1><TypingAnimation /></h1> </p>
+                    <img src="static/img/jedenteam.jpg" alt="Opis obrazka"></img>
+                   {/*} <h1 className="dark-color">JEDENTEAM</h1>
+                    <h1 className="dark-color"></h1> */}
+                    {/*} <p> <h1><TypingAnimation /></h1> </p> */}
                     {/*<div className="btn-bar">
                       <a href="#" className="btn btn-theme">
                         Download CV

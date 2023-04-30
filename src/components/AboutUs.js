@@ -78,7 +78,7 @@ const AboutUs = () => {
                   <p>
                     Sprawdź pyszne diety naszego sponsora: 
                   </p>
-                  <a href="https://ntfy.pl/konfigurator">NiceToFitYou</a> <p> -10% na hasło jedenteam</p>
+                  <a href="https://ntfy.pl/konfigurator">NiceToFitYou</a> <p> -10% na hasło JEDENTEAM</p>
 
                 </div>
               </div>

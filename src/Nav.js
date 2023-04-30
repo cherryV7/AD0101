@@ -52,7 +52,7 @@ const Nav = () => {
     <nav className={`pages-nav ${toggle ? "pages-nav--open" : ""}`}>
       <div className="pages-nav__item">
         <a className="link link--page" onClick={() => changeNav("home", false)}>
-          Jeden Team
+          JEDENTEAM
         </a>
       </div>
       <div className="pages-nav__item">
