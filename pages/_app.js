@@ -3,6 +3,32 @@ import AlexioState from "@/src/Context";
 import Preloader from "@/src/Preloader";
 import "@/styles/globals.css";
 import { useEffect, useState } from "react";
+import{ Analytics } from '@vercel/analytics/react';
+function
+ 
+App
+({ Component
+,
+ pageProps }) {
+  
+return
+ (
+    <>
+      <
+Component
+ {
+...
+pageProps} />
+      <
+Analytics
+ />
+    </>
+  );
+}
+
+ 
+
+
 
 export default function App({ Component, pageProps }) {
   const [load, setLoad] = useState(false);
