@@ -24,16 +24,14 @@ const Index = () => {
 
   return (
     <Fragment>
-      <VideoPopup />
-      <ImageView />
+    
       <Nav />
-      <div className={`pages-stack ${toggle ? "pages-stack--open" : ""}`}>
         <HomeBanner />
         <AboutUs />
         <Services />
         <Portfolio />
         <Contact />
-      </div>
+      
       <Header />
     </Fragment>
   );

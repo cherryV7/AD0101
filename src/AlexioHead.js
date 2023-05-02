@@ -5,11 +5,11 @@ const AlexioHead = () => {
     <Head>
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta
-        name="description"
+      <meta name="description"
         content="Adrian Oleksiak i JEDENTEAM to najlepsze fitness obozy, 
                 super zajęcia fitness oraz najskuteczniejsze treningi personalne"
       />
+      <meta property="og:title" content="Mój Fitness Obóz"/>
       {/*
      ========================================================================
      EXCLUSIVE ON themeforest.net

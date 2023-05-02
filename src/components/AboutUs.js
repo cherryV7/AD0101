@@ -1,4 +1,6 @@
 import SectionContainer from "./SectionContainer";
+import Head from "next/head";
+
 
 const AboutUs = () => {
   return (
@@ -11,6 +13,7 @@ const AboutUs = () => {
       leftImageTitle={""}
     >
       <div className="row">
+      <Head><title>O naszych fitness obozach</title></Head>
         <div className="col-md-4">
           <img src="static/img/my-pic.jpg" title alt />
         </div>
