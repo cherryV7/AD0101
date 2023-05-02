@@ -583,7 +583,7 @@ body.dark-body {
 
 @media (max-width: 991px) {
   .home-user-avtar {
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .home-banner .page-content .v-center-box {
     min-height: inherit;
