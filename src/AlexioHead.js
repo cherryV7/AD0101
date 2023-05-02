@@ -6,8 +6,9 @@ const AlexioHead = () => {
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta
-        name="keywords"
-        content="fitness, obozy, trening"
+        name="description"
+        content="Adrian Oleksiak i JEDENTEAM to najlepsze fitness obozy, 
+                super zajęcia fitness oraz najskuteczniejsze treningi personalne"
       />
       {/*
      ========================================================================
