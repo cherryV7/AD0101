@@ -4,31 +4,6 @@ import Preloader from "@/src/Preloader";
 import "@/styles/globals.css";
 import { useEffect, useState } from "react";
 import{ Analytics } from '@vercel/analytics/react';
-function
- 
-App
-({ Component
-,
- pageProps }) {
-  
-return
- (
-    <>
-      <
-Component
- {
-...
-pageProps} />
-      <
-Analytics
- />
-    </>
-  );
-}
-
- 
-
-
 
 export default function App({ Component, pageProps }) {
   const [load, setLoad] = useState(false);
@@ -43,10 +18,12 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
+    <>
     <AlexioState>
       <AlexioHead />
       {!load && <Preloader />}
       {load1 && <Component {...pageProps} />}
     </AlexioState>
-  );
-}
+    <Analytics />
+    </>
+  )};
